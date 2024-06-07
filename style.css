@@ -1,0 +1,34 @@
+ body{
+    background:rgb(148, 200, 18);
+ } 
+ .imgBox{
+    background-image: url('youtube.jpg');
+     position: relative; 
+   background-size: cover;
+     background-repeat: no-repeat;
+     margin: auto;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+ }
+ .whiteBox{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    
+    background-color: #fff;
+    
+    border: 3px rgb(224, 197, 18) solid;
+ }
+ .hold{
+     border: solid rgb(43, 170, 216) 4px;
+ }
+ .dashed{
+   color: rgb(175, 15, 244);
+   border-style: dashed;
+   
+ } 
+ .hide{
+    display:none;
+ }
